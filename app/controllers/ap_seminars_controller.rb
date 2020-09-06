@@ -1,6 +1,6 @@
 class ApSeminarsController < ApplicationController
 
-	 layout :seminar_layout
+	 layout "seminar_layout"
 
   def seminar_home
   end
