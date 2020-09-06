@@ -1,0 +1,2 @@
+module ApHistoryHelper
+end
