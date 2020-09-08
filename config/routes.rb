@@ -4,9 +4,12 @@ Rails.application.routes.draw do
   
   
   
+<<<<<<< HEAD
   get 'research/research_home'
   get 'research/lesson_1'
   get 'research/lesson_2'
+=======
+>>>>>>> 74f21996e13f02fefcdb3fc8635072396ee28d5a
 #home section  
   root  'static_pages#home'	
   get 'intro' => 'static_pages#intro'
@@ -24,14 +27,30 @@ Rails.application.routes.draw do
   get 'history_lesson_2' => 'ap_history#lesson_2'
 
   #ap research
+<<<<<<< HEAD
   get 'research_home' => 'research#research_home'
   get 'research_lesson_1' => 'research#lesson_1'
   get 'research_lesson_2' => 'research#lesson_1'
+=======
+>>>>>>> 74f21996e13f02fefcdb3fc8635072396ee28d5a
   
+  get 'research_home' => 'research#research_home'
+  get 'research_lesson_1' => 'research#lesson_1'
+  get 'research_lesson_2' => 'ap_research#lesson_2'
+
+
+  #ap English
+  get 'english_home' => 'ap_english#english_home'
+  get 'english_lesson_1' => 'ap_english#lesson_1'
+  get 'english_lesson_2' => 'ap_english#lesson_2'
+ 
   
+<<<<<<< HEAD
   #ap English
   
   
+=======
+>>>>>>> 74f21996e13f02fefcdb3fc8635072396ee28d5a
 
 
   
