@@ -27,9 +27,8 @@ Rails.application.routes.draw do
 
 
   #ap English
-  get 'english_home' => 'ap_english#english_home'
-  get 'english_lesson_1' => 'ap_english#lesson_1'
-  get 'english_lesson_2' => 'ap_english#lesson_2'
+ 
+  
 
 
   
