@@ -1,6 +1,7 @@
 class ResearchController < ApplicationController
 
 	layout "research_layout"
+	
   def research_home
   end
 
